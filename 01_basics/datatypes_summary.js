@@ -23,6 +23,9 @@ console.log(id === anotherId);
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
+
+console.log(heros)
+
 let myObj = {
     name: "hitesh",
     age: 22,
