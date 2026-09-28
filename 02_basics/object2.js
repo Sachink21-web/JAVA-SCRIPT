@@ -59,4 +59,23 @@ const user = [
 // console.log(Object.values(Vampires)) // ye object ki values access krne mee kmm atta hee
 // console.log(Object.entries(Vampires)) // ye sari entries nikalne ke kmm ataa hee
 // console.log(Vampires.hasOwnProperty('surname')) // ye check krta hee kya ye property isme present hee ya nhi
-console.log(Vampires.toLocaleString(5))
+// console.log(Vampires.toLocaleString(5))
+
+const world = {
+
+    vampires: 'klaus mikelson',
+
+    witches: "bonnie bennet",
+
+    werewolf: 'tyler lockwood'
+
+}
+
+// console.log([world.werewolf]) ye normal tarika hee
+
+// destructure
+const {werewolf} = world // ye hee destructure ka tarika
+console.log(werewolf)
+
+const {witches:bennet} = world // aisee humm log iska kuch alag se bhi naam de skte hee
+console.log(bennet)
