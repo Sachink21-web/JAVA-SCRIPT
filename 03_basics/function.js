@@ -48,5 +48,33 @@ function loggedin(username = 'Kathrine') { // yha pe hum deafult value bhi dee s
 }
 
 // console.log(loggedin('Alaric'))  
-console.log(loggedin('Alaric'))  // isme undefined output ayega
+// console.log(loggedin('Alaric'))  // isme undefined output ayega
 
+function calculatecartprice( ...num1){ // ye ... rest or spread dono opreator bss usecase ke uperr depend hee
+    return num1
+}
+
+// console.log(calculatecartprice(200, 400, 500))
+
+const user = {
+    name : "Jenna",
+    price : 999
+}
+
+function handleobject(object){
+    console.log(`username is ${object.username} and price is ${object.price}`)
+return
+}
+// handleobject(user)
+
+// handleobject({ // aisee direct bhi asign kr skte hee
+//     username: 'caroline',
+//     price: 699
+// })
+
+const mynewarray = [200, 300, 500]
+function getarray(ARRAy){
+    return ARRAy[2]
+}
+
+console.log(getarray(mynewarray))
