@@ -25,13 +25,13 @@ for (let index = 0; index < array.length; index++) { // ++ ke bina loop first el
     
 }
 
-// for (let index = 1; index <= 10; index++) {
-// if (index == 5){
+for (let index = 1; index <= 10; index++) {
+if (index == 5){
 // console.log(`detected 5`);
-// break // ye ek baar condition true hone ke baad ruk jata hee
-// }
+break // ye ek baar condition true hone ke baad ruk jata hee
+}
 // console.log(`the value is ${index}`);
-// }
+}
 
 for (let index = 1; index <= 10; index++) {
 if (index == 5){
