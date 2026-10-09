@@ -1,0 +1,23 @@
+// const superhero = ['captain america' , 'ironman' , 'thor']
+
+// const values = superhero.forEach( (heros)=> {
+// console.log(heros);
+
+// })
+
+// console.log(values); // ye hamesha undefined value dega
+
+
+const nums = [1,2,3,4,5,6,7]
+
+// let newnumbers = nums.filter( (numbers)=> (  // ye filter bhi for each jaisa hi kaam krta hee lakin isko ek variable me store krna padta he 
+// numbers>5
+// ))
+// console.log(newnumbers);
+const values = []
+nums.forEach( (numbers) => {
+    if(numbers > 5){
+        values.push(nums)
+    }
+} )
+console.log(values);
