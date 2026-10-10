@@ -1,0 +1,14 @@
+const numbers = [1,2,3,4,5,6,7,8,9,10]
+let newnums1 = numbers.map ( (nums) => nums + 10 )
+console.log(newnums1);
+
+let newnums2 = [ ]
+numbers.forEach( (nums) => newnums2.push(nums+10)) // ye aisee for each se bhi print kr skte hee
+console.log(newnums2);
+
+// ******* ISKO BOLTE HEE CHAINING JISME EK BAAD EK ALAG ALAG METHOD USE KR SKTE HEE
+let newnums3 = numbers.map( (num) => num+10 )
+                     .map( (num) => num * 10 )
+                     .filter( (num) => num > 150 ) 
+console.log(newnums3);
+                     
