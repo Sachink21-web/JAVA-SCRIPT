@@ -40,6 +40,6 @@ let students = [
 ]
 
 students.forEach( (values)=> {
-    // console.log(values.name); // isse array ke ander ki properties easy access kr skte hee
+    console.log(values.name); // isse array ke ander ki properties easy access kr skte hee
     
 }) 

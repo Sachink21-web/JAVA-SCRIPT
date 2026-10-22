@@ -13,7 +13,7 @@ for (const key in heros) {
 let myarr = [1,2,3,4,5,6]
 
 for (const key in myarr) {
-    // console.log(myarr[key]); 
+    console.log(myarr[key]); 
 }
 
   const map = new Map()
