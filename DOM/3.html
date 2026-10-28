@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DOM chai aur code</title>
+</head>
+<body style="background-color: black; color: rgb(251, 112, 251);">
+    <script>
+      const mydiv = document.createElement('div')
+      console.log(mydiv);
+
+      mydiv.className = 'Boss'
+      mydiv.id = Math.round(Math.random() * 10)
+      mydiv.setAttribute('title' , 'BIG BOSS')  
+      mydiv.style.backgroundColor = 'blue'
+      mydiv.style.color = 'white'
+      mydiv.style.padding = '12px'
+      mydiv.innerText = 'har har MAHADEV'
+      document.body.appendChild(mydiv)              
+    </script>
+</body>
+</html>      
