@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #212121;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: #e0e0e0;
+}
+
+nav a {
+  padding: 8px 24px;
+  border: 2px solid #999;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #212121;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a[aria-current="page"] {
+  background-color: #d0d0d0;
+}
+
+nav a:hover {
+  background-color: #ccc;
+}
+
+/* Main content */
+.canvas {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+h2 span {
+  display: block;
+}
+
+/* Color boxes */
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 6px;
+  border: 2px solid #212121;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+#grey {
+  background-color: grey;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
