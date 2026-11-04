@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #b4b6b8;
+  color: #1c1c1e;
+}
+
+/* ---------- NAV ---------- */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+nav a {
+  padding: 10px 28px;
+  border: 1px solid #b5b5b5;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #e6e6e6;
+}
+
+nav a[aria-current="page"] {
+  background-color: #d9d9d9;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+/* ---------- FORM ---------- */
+form p {
+  margin: 0 0 24px;
+}
+
+label {
+  font-size: 1.1rem;
+  margin-right: 4px;
+}
+
+input[type="text"] {
+  width: 240px;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 0 2px #4a90e2;
+}
+
+button {
+  margin: 8px 0 24px 160px;
+  padding: 10px 40px;
+  border: 2px solid #555;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #222;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* ---------- RESULTS ---------- */
+#results {
+  margin: 0 0 24px 160px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* ---------- WEIGHT GUIDE ---------- */
+#weight-guide {
+  margin-left: 160px;
+}
+
+#weight-guide h3 {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+}
+
+#weight-guide p {
+  margin: 0 0 14px;
+  font-size: 1.05rem;
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 600px) {
+  button,
+  #results,
+  #weight-guide {
+    margin-left: 0;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  label {
+    display: block;
+  }
+}
